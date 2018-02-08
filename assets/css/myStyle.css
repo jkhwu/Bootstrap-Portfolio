@@ -38,11 +38,17 @@ body {
     letter-spacing: 0.06em;
     display: inline-block;
     padding: 15px 40px;
-    background: linear-gradient(to top, #f83600, #fe8c00);
+    background: linear-gradient(to top, #f80000, #fe8c00);
 }
 
 .navbar {
     padding: 0 0.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+#nav-link:hover {
+    color: #fe8c00;
 }
 
 body::before {
@@ -50,7 +56,7 @@ body::before {
     display: block;
     width: 100%;
     height: 5px;
-    background: linear-gradient(to right, #f83600, #fe8c00);
+    background: linear-gradient(to right, #f80000, #fe8c00);
     position: absolute;
     top: 65px;
     z-index: 1;
@@ -69,7 +75,7 @@ body::after {
     display: block;
     width: 100%;
     height: 5px;
-    background: linear-gradient(to right, #fe8c00, #f83600);
+    background: linear-gradient(to right, #fe8c00, #f80000);
     position: absolute;
     bottom: 60px;
     z-index: 1;
@@ -79,7 +85,7 @@ h2,
 h3,
 h4 {
     font-family: 'Montserrat', sans-serif;
-    color: #696868;
+    color: #5a5959;
 }
 
 .card {
@@ -89,6 +95,15 @@ h4 {
 .footer span {
     font-size: 0.6em;
     color: #c0cad1;
+}
+
+.connect {
+    min-width: 30px;
+}
+
+.connect:hover {
+    box-shadow: 0 1px 5px #6f7984;
+    transition: 0.1s;
 }
 
 
@@ -108,3 +123,65 @@ p {
 
 
 /* --------------------------- PORTFOLIO PAGE  --------------------------- */
+
+.project-card {
+    padding: 0;
+    max-width: 18rem;
+}
+
+.project-card-body {
+    padding: 0.2rem 1rem;
+    font-family: 'Karla', sans-serif;
+    font-size: 1.2em;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.project-card:hover {
+    box-shadow: 0 2px 8px #6f7984;
+    transition: 0.1s;
+    background: linear-gradient(to right, #f80000, #fe8c00);
+}
+
+.project-card-body:active {
+    background: #9b0000;
+}
+
+
+/* --------------------------- CONTACT PAGE  --------------------------- */
+
+.form-control:focus {
+    outline: none;
+    border: 1px solid #f80000;
+    box-shadow: 0 0 3px #f80000;
+    transition: 0.1s;
+}
+
+#submit {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 100%;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 50px;
+}
+
+#submit:hover {
+    background: linear-gradient(to top, #f80000, #fe8c00);
+    transition: 0.1s;
+    border: none
+}
+
+#submit:active {
+    background: linear-gradient(to top, #fe8c00, #f80000);
+    transition: 0.1s;
+    border: none;
+    box-shadow: none;
+}
+
+#submit:focus {
+    box-shadow: none;
+}

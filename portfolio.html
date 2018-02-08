@@ -19,26 +19,26 @@
 
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark border-bottom">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
         <div class="container">
             <a id="nameblock" class="navbar-brand mb-0" href="index.html">
-                Janet Hwu
-            </a>
+                    Janet Hwu
+                </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                </button>
+                          <span class="navbar-toggler-icon"></span>
+                    </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">About</a>
+                    <li class="nav-item mr-3">
+                        <a id="nav-link" class="nav-link" href="index.html">About</a>
+                    </li>
+                    <li class="nav-item mr-3">
+                        <a id="nav-link" class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="portfolio.html">Portfolio</a>
-                    </li>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
+                        <a id="nav-link" class="nav-link" href="contact.html">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -53,17 +53,60 @@
                     <div class="card-body">
                         <h3 class="card-title font-weight-bold">About Me</h3>
                         <hr>
-                        <img id="biophoto" class="img-fluid mr-4 mb-1" src="assets/images/profile-pic.jpg" alt="profile photo">
-                        <p class="card-text">
-                            Welcome to my Bootstrap portfolio site! I created this as a Bootstrap exercise, and you are currently reading the About Me section.</p>
-                        <p class="card-text">
-                            I hold a B.S. in Engineering, Product Design from Stanford University. My career began at Walt Disney Imagineering after I became a finalist in the ImagiNations design competition, for which my partner and I pitched a restaurant concept for a Disney park.
-                            My work in themed entertainment took me from Los Angeles to Shanghai, where I oversaw the design, production, and construction of Buzz Lightyear Planet Rescue, an interactive ride in Shanghai Disney Resort.
-                        </p>
-                        <p class="card-text">
-                            Prior to beginning my efforts in web development, I also served as Art Director for the Design Studio at Universal Studios Japan, managing design for new installations in the park. I look forward to applying my skills and experience to the tech industry
-                            in the near future.
-                        </p>
+                        <div class="card-deck mb-4">
+                            <div class="card text-white bg-dark project-card">
+                                <a href="#" class="text-white">
+                                    <img class="card-img-top" src="assets/images/carlos-muza-84523.jpg" alt="project1">
+                                    <div class="card-body project-card-body">
+                                        <p class="card-text text-center">Hangman</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="card text-white bg-dark project-card" style="width: 18rem;">
+                                <a href="#" class="text-white">
+                                    <img class="card-img-top" src="assets/images/corinne-kutz-211251.jpg" alt="project2">
+                                    <div class="card-body project-card-body">
+                                        <p class="card-text text-center">RPG Game</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-deck mb-4">
+                            <div class="card text-white bg-dark project-card">
+                                <a href="#" class="text-white">
+                                    <img class="card-img-top" src="assets/images/lukas-blazek-320606.jpg" alt="project1">
+                                    <div class="card-body project-card-body">
+                                        <p class="card-text text-center">Hangman</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="card text-white bg-dark project-card" style="width: 18rem;">
+                                <a href="#" class="text-white">
+                                    <img class="card-img-top" src="assets/images/patrick-perkins-350622.jpg" alt="project2">
+                                    <div class="card-body project-card-body">
+                                        <p class="card-text text-center">RPG Game</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-deck">
+                            <div class="card text-white bg-dark project-card">
+                                <a href="#" class="text-white">
+                                    <img class="card-img-top" src="assets/images/rawpixel-com-247360.jpg" alt="project1">
+                                    <div class="card-body project-card-body">
+                                        <p class="card-text text-center">Hangman</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="card text-white bg-dark project-card" style="width: 18rem;">
+                                <a href="#" class="text-white">
+                                    <img class="card-img-top" src="assets/images/stefan-stefancik-257625.jpg" alt="project2">
+                                    <div class="card-body project-card-body">
+                                        <p class="card-text text-center">RPG Game</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
